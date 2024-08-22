@@ -16,8 +16,10 @@ git add .: para añadir todo los ficheros.
 git commit -m "mensaje": pasarlo a git de local con un comentario.
 git log: ver todo el historial.
 
-git checout: situarnos en un punto completo para volver
+git checkout: situarnos en un punto completo para volver
 git reset: para revertir aun sin enviar
 git log --graph: muestra de manera mas grafica el historial
 .gitignore: para que git no lo tome en cuenta
-git diff: ver que cambios se realizo en el fichero antes de hacer el commit
+git diff: ver que cambios se realizo en el fichero antes de hacer el commit.
+git checkout HEAD: ir a la cabecera.
+git checkout "codigo del commit": para volver a un sitio mas concreto.
