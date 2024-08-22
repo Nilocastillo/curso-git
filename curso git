@@ -20,3 +20,4 @@ git checout: situarnos en un punto completo para volver
 git reset: para revertir aun sin enviar
 git log --graph: muestra de manera mas grafica el historial
 .gitignore: para que git no lo tome en cuenta
+git diff: ver que cambios se realizo en el fichero antes de hacer el commit
