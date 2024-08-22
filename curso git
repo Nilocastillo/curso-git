@@ -11,3 +11,7 @@ git init: inicializar git en una carpeta
 
 //RAMAS EN GIT//
 git branch -m "main": cambiar nombre a la rama
+git status: ver el estado de los ficheros.
+git add .: para añadir todo los ficheros.
+git commit -m "mensaje": pasarlo a git de local con un comentario.
+git log: ver todo los commit realizados.
