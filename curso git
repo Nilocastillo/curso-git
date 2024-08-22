@@ -15,3 +15,6 @@ git status: ver el estado de los ficheros.
 git add .: para añadir todo los ficheros.
 git commit -m "mensaje": pasarlo a git de local con un comentario.
 git log: ver todo los commit realizados.
+
+git checout: situarnos en un punto completo para volver
+git reset:
