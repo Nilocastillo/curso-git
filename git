@@ -1,0 +1,45 @@
+COMANDOS GIT
+ git commit: crea una nueva version con modificaciones en el archivo.
+ git branch "nombre": para crear una nueva rama.
+ git checkout "nombre": para situarte en la rama.
+ git rebase main: para que los cambios solo esten en una sola rama.
+ git log : para poder ver los hashes.
+ git checkout main "^": para movernos hacia atras de uno en uno. "~" para moverse varias de acuerdo al numero asignado.
+ git branch -f main HEAD~3: Mueve (forzadamente) la rama main tres padres por detrás de HEAD.
+ git checkout main main~4 retrocede 4 espacios "aplica para retroceder e ir a cualquier rama"
+
+ //DESHACER CAMBIOS EN GIT//
+ git reset: deshace los cambios moviendo la referencia de una rama hacia atrás en el tiempo a un commit anterior. En este sentido puedes imaginarlo como "reescribir la historia".
+ git revert: va a mover la rama hacia atrás, como si el commit nunca se hubiera hecho.
+ git reset HEAD~1: mueve la referencia de la rama en 1
+ git revert: para introducir cambios para poder revertir los que se hizo sin la necesidad de crear un apartado.
+
+ git cherry-pick <Commit1> <Commit2> <...> para copiar commit a tu rama.
+
+ git rebase -i "rama+numero"
+git rebase -i main para poder escoger los comit a pasar
+git rebase bugFix main - para fusionar las ramas
+
+solucion
+git rebase -i HEAD~2
+ordenar C3 y C2
+git commit ammend
+git rebase -i HEAD~2
+ordenar C2 y C3
+git rebase caption main
+
+
+//
+git clone: clonar repositorios
+git fetch: para traer archivos remoto al local
+git pull: hace lo de merge y fech al mismo tiempo traer todo los cambios al local
+!git fakeTeamwork¡
+git push: subir los cambios del local a remoto
+git merge: integraste todos los cambios del remoto.
+
+atajos
+git pull --rebase es un atajo para hacer fetch y rebase!
+git pull-- traer los cambios al local
+git push-- enviar todo los cambios al remoto
+
+git pull --rebase solo se crea una rama sin la necesidad de triangular

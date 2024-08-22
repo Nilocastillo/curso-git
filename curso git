@@ -1,0 +1,13 @@
+//CURSO DE GIT//
+--comandos UNIX
+ls: listado de los directorios.
+cd carpeta/: ir a la carpeta.
+cd..: -- volver a la carpeta anterior.
+pwd: saber en que carpeta nos encontramos.
+mkdir "nombre-carpeta": crear carpeta.
+
+git init: inicializar git en una carpeta
+
+
+//RAMAS EN GIT//
+git branch -m "main": cambiar nombre a la rama
