@@ -35,3 +35,4 @@ git cheackout tags/"nombre": para moverse a los tag que se crearon.
 //CREAR RAMAS EN GIT//
 git branch login: crear una nueva rama
 git swich login: entrar dentro de esa rama
+git merge main: para fusionar ramas y traer los datos modificados
