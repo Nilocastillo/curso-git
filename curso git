@@ -17,4 +17,6 @@ git commit -m "mensaje": pasarlo a git de local con un comentario.
 git log: ver todo el historial.
 
 git checout: situarnos en un punto completo para volver
-git reset:
+git reset: para revertir aun sin enviar
+git log --graph: muestra de manera mas grafica el historial
+.gitignore: para que git no lo tome en cuenta
