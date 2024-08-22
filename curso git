@@ -17,9 +17,16 @@ git commit -m "mensaje": pasarlo a git de local con un comentario.
 git log: ver todo el historial.
 
 git checkout: situarnos en un punto completo para volver
-git reset: para revertir aun sin enviar
+git reset: para revertir aun sin enviar descartar cambios y no tener en cuenta.
 git log --graph: muestra de manera mas grafica el historial
 .gitignore: para que git no lo tome en cuenta
 git diff: ver que cambios se realizo en el fichero antes de hacer el commit.
 git checkout HEAD: ir a la cabecera.
 git checkout "codigo del commit": para volver a un sitio mas concreto.
+
+
+git reset: resetar cambios o situarnos en un punto concreto de la linea de commit
+git reset --hard id: reset al id indicado funciona hacia atras y adelante
+git reflog: historial completo de interacciones.
+
+git tag: etiquetar commit para referenciar puntos importantes para versionar
