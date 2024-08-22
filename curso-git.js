@@ -1,2 +1,2 @@
 console.log("hola mundo");
-console.log("hola curso git");
+console.log("nuevo commit");
