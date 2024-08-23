@@ -37,3 +37,4 @@ git branch login: crear una nueva rama
 git swich login: entrar dentro de esa rama
 git merge main: para fusionar ramas y traer los datos modificados
 git stash : guarda el proceso sin hacer add
+git branch -d "nombre": eliminar ramas.
