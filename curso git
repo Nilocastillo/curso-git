@@ -38,3 +38,8 @@ git swich login: entrar dentro de esa rama
 git merge main: para fusionar ramas y traer los datos modificados
 git stash : guarda el proceso sin hacer add
 git branch -d "nombre": eliminar ramas.
+
+//GITHUP//
+git-push: enviar al remoto
+git-fech: descargar en local el historial sin los cambios
+git-pull: descarga al local todo el historial con todo los cambios
